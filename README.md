@@ -16,12 +16,12 @@ Step 2: attach the BME280 to the breadboard (with its headers).
 
 Step 3: using the jump wires, connect the ESP32-C3 to the BME280: 
 
-- VIN to 3V3
+- 3V3 to VIN
 - GND to GND
-- SDL to GPIO 2
-- SCL to GPIO 3
+- GPIO 2 to SDA
+- GPIO 3 to SCL
 
-Note: you can use any available GPIO pins for SDL and SCL.
+Note: you can use any available GPIO pins for SDL and SCL, but remember to change the code accordingly.
 
 Step 4: connect the USB cable to your computer or laptop.
 
@@ -29,7 +29,7 @@ Step 4: connect the USB cable to your computer or laptop.
 
 Step 1: follow these [instructions](https://github.com/esp-rs/esp-idf-template?tab=readme-ov-file#prerequisites) to setup the development environment.
 
-Step 2: execute `cargo run` in the terminal (to build, flash, and monitor). Note: on Linux, you may have to [fix](https://github.com/esp-rs/espflash/blob/main/espflash/README.md#permissions-on-linux) a permission issue.
+Step 2: Execute `cargo run` on the command line (to build, flash, and monitor). Note: on Linux, you may have to fix a permission [issue](https://github.com/esp-rs/espflash/blob/main/espflash/README.md#permissions-on-linux).
 
 If the universe conspires in your favor, you should see an output like this:
 
