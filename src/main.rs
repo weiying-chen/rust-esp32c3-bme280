@@ -31,9 +31,9 @@ fn main() {
     loop {
         match bme280.measure(&mut delay) {
             Ok(measurements) => {
-                log::info!("Relative Humidity = {}%", measurements.humidity);
-                log::info!("Temperature = {} deg C", measurements.temperature);
-                log::info!("Pressure = {} pascals", measurements.pressure);
+                log::info!("Relative Humidity = {:.0}%", measurements.humidity);
+                log::info!("Temperature = {:.0}°C", measurements.temperature);
+                log::info!("Pressure = {:,.0} Pa", measurements.pressure);
             }
 
             Err(e) => log::error!("Failed to get measurements: {:?}", e),
