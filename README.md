@@ -35,9 +35,9 @@ If the universe conspires in your favor, you should see an output like this:
 
 ```bash
 I (409) rust_esp32_bme280: Successfully initialized BME280 device
-I (449) rust_esp32_bme280: Relative Humidity = 72.14661%
-I (449) rust_esp32_bme280: Temperature = 24.296581 deg C
-I (449) rust_esp32_bme280: Pressure = 68716.16 pascals
+I (2529) rust_esp32_bme280: Relative Humidity = 69%
+I (2529) rust_esp32_bme280: Temperature = 25°C
+I (2529) rust_esp32_bme280: Pressure = 101698 Pa
 ```
 
 Let me know if I skipped any step.
