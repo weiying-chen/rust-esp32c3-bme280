@@ -10,20 +10,20 @@ Example of reading the BME280 sensor on an ESP32-C3 using Rust
 - Jump wires
 - USB-A to Micro-B cable
 
-Step 1: Attach the ESP32-C3 to the breadboard (with its headers).
+Step 1: attach the ESP32-C3 to the breadboard (with its headers).
 
-Step 2: Attach the BME280 to the breadboard (with its headers).
+Step 2: attach the BME280 to the breadboard (with its headers).
 
-Step 3: Using the jump wires, connect the ESP32-C3 to the BME280: 
+Step 3: using the jump wires, connect the ESP32-C3 to the BME280: 
 
 - VIN to 3V3
 - GND to GND
 - SDL to GPIO 2
 - SCL to GPIO 3
 
-Note: You can use any available GPIO pins for SDL and SCL.
+Note: you can use any available GPIO pins for SDL and SCL.
 
-Step 4: Connect the USB cable to your computer or laptop.
+Step 4: connect the USB cable to your computer or laptop.
 
 ## Software:
 
