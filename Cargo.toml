@@ -1,5 +1,5 @@
 [package]
-name = "rust-esp32-bme280"
+name = "rust-esp32c3-bme280"
 version = "0.1.0"
 authors = ["Wei-ying Chen <weiying.alex.chen@gmail.com>"]
 edition = "2021"
