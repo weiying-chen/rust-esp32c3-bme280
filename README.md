@@ -40,5 +40,5 @@ I (2529) rust_esp32_bme280: Temperature = 25°C
 I (2529) rust_esp32_bme280: Pressure = 101698 Pa
 ```
 
-Let me know if I skipped any step.
+Let me know if I skipped any steps.
 
